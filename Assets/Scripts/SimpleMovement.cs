@@ -22,7 +22,7 @@ public class SimpleMovement : MonoBehaviour
             moveY = -1f;
 
         // Movimiento final
-        Vector3 movement = new Vector3(moveX, 0f, moveY) * (speed * Time.deltaTime);
+        Vector3 movement = new Vector3(moveX, moveY, 0f) * (speed * Time.deltaTime);
         transform.position += movement;
     }
 }

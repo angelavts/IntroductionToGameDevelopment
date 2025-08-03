@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: a66400742d1fdd84397d1469b38a5138
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 609
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b5610bbd9db5243832c8da5b1fa5dc
+      internalID: -143184322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 603
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fbea59bacdbb043b3401b36381e236
+      internalID: -645677750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 579
+        width: 165
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd80337acaed0c41becfe56c4947da4
+      internalID: 1273519371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 200
+        width: 506
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d127459c452544a2d904ffde4d1d5
+      internalID: 205673850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 585
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef79bcfde29398445a536660a1cfdc56
+      internalID: -199081805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 585
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4f51dcbb6d13544a6010d306ab8fb6
+      internalID: 1396914266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 587
+        width: 112
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712c5e8e3eb8f9a44b4e058563334889
+      internalID: 274043738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 69
+        width: 98
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8356bbfc3ce46fe4ea182f2213d854a1
+      internalID: 1270218508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 70
+        width: 490
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf4cdd65c8db514891793ae537a48b7
+      internalID: 802754732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 471
+        width: 61
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9eed0c4cb5d9b47a5121e10ca69127
+      internalID: 1907817214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 465
+        width: 68
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee7f68beb7953743bb7955b705e1ab6
+      internalID: 1424812920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 469
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c5fba04c17d1447936750c814737fe
+      internalID: -1191388398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 563
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0b36f2d3851a4428290d62ec46ee86
+      internalID: 216497984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 465
+        width: 133
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4580aaac6ea7e2f41bd75ffac7fdfd6d
+      internalID: -1883616525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 397
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674542067af4e3244b5be338ce47a1e4
+      internalID: 287980689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 407
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac969a1ed2bb1ff4e8bd06fcf7a703fe
+      internalID: -28467146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 347
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14120083e9e7b6f4892ad32d5683fd94
+      internalID: 863595910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 341
+        width: 132
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad153b4ea0d58346bebb7b4f1fdbab6
+      internalID: -1284704363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 270
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa105a6039fc62e4088e6f54485068c9
+      internalID: -236691875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 336
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f15c315ea503744ac53373dbf83e62
+      internalID: 1226505058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 270
+        width: 113
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 2, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e22d81cd6d60340a0e17f0330cea13
+      internalID: 2045474652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 249
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84de51821d1712f40839ef9943b99ce7
+      internalID: 486579029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 65
+        width: 275
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd24c8cc1b7fee4fa7a9f53abedc953
+      internalID: 1879517446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 70
+        width: 270
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f89f041c21e28645aaf605327d0522e
+      internalID: 88716596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 147
+        width: 168
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b85c4d5ec99bd14aa9206ca881a1fdb
+      internalID: -376092850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-mario-bros-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 69
+        width: 222
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d696fe6b6b8f13c42bd7b8d92b2bc65b
+      internalID: -1291524673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 922e0395587b2bf4f8f5e57f8c4d6a14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      super-mario-bros-spritesheet_0: -143184322
+      super-mario-bros-spritesheet_1: -645677750
+      super-mario-bros-spritesheet_10: 1424812920
+      super-mario-bros-spritesheet_11: -1191388398
+      super-mario-bros-spritesheet_12: 216497984
+      super-mario-bros-spritesheet_13: -1883616525
+      super-mario-bros-spritesheet_14: 287980689
+      super-mario-bros-spritesheet_15: -28467146
+      super-mario-bros-spritesheet_16: 863595910
+      super-mario-bros-spritesheet_17: -1284704363
+      super-mario-bros-spritesheet_18: -236691875
+      super-mario-bros-spritesheet_19: 1226505058
+      super-mario-bros-spritesheet_2: 1273519371
+      super-mario-bros-spritesheet_20: 2045474652
+      super-mario-bros-spritesheet_21: 486579029
+      super-mario-bros-spritesheet_22: 1879517446
+      super-mario-bros-spritesheet_23: 88716596
+      super-mario-bros-spritesheet_24: -376092850
+      super-mario-bros-spritesheet_25: -1291524673
+      super-mario-bros-spritesheet_3: 205673850
+      super-mario-bros-spritesheet_4: -199081805
+      super-mario-bros-spritesheet_5: 1396914266
+      super-mario-bros-spritesheet_6: 274043738
+      super-mario-bros-spritesheet_7: 1270218508
+      super-mario-bros-spritesheet_8: 802754732
+      super-mario-bros-spritesheet_9: 1907817214
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
