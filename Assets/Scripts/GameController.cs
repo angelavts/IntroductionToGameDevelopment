@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
         myCat.ServeFood();  // Llama al método de la clase Cat
         myCat.ShowFood();   // Muestra la comida
 
-
+        
     }
 
     // Update is called once per frame

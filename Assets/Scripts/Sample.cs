@@ -20,6 +20,7 @@ namespace Animals
         public virtual void Talk()
         {
             Debug.Log("El animal hace un sonido");
+            
         }
 
         // Método virtual ServeFood, que agrega comida a la lista
