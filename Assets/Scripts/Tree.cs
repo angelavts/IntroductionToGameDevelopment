@@ -8,14 +8,21 @@ public class Tree : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        SimpleEventBus.Subscribe(GameEvent.CoinCollected, HandleOnCoinCollected);
+        // Suscribirse al evento de recogida de monedas
+        EventBus<int>.Subscribe(GameEvent.CoinCollected, HandleOnCoinCollected);
+        StaticTree.Start();
     }
 
-    private void HandleOnCoinCollected()
+    /// <summary>
+    /// Manejador para el evento de recogida de monedas. Cada vez que una moneda es recogida,
+    /// se incrementa el contador de monedas y se verifica si se ha alcanzado el objetivo.
+    /// </summary>
+    /// <param name="coinValue"></param>
+    private void HandleOnCoinCollected(int coinValue)
     {
-        _coinCounter++;
+        _coinCounter += coinValue;
         Debug.Log($"Coins collected: {_coinCounter}");
-        if (_coinCounter >= 3)
+        if (_coinCounter >= 300)
         {
             Debug.Log("You have collected enough coins!");
             Destroy(gameObject);

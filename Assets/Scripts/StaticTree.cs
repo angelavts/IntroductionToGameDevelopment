@@ -5,32 +5,20 @@ using System;
 
 public static class StaticTree
 {
-    public static Action OnTreeInitialized;
-
-
-    public static void Example()
+    private static int _coinCounter = 0;
+    
+    public static void Start()
     {
-        OnTreeInitialized += InitializeTree;
-        OnTreeInitialized += InitializeTree;
-        OnTreeInitialized += InitializeTree2;
-        
-        OnTreeInitialized -= InitializeTree;
-        
-        OnTreeInitialized = InitializeTree;
-        OnTreeInitialized?.Invoke();
+        EventBus<float>.Subscribe(GameEvent.CoinCollected, HandleOnCoinCollected);
     }
     
-    public static void InitializeTree()
+    private static void HandleOnCoinCollected(float coinValue)
     {
-        // Initialization logic for the tree
-        Debug.Log("Tree has been initialized.");
-        
-        // Notify subscribers that the tree has been initialized
-        OnTreeInitialized?.Invoke();
-    }
-    
-    public static void InitializeTree2()
-    {
-
+        _coinCounter += (int)coinValue;
+        Debug.Log($"Coins collected STATIC: {_coinCounter}");
+        if (_coinCounter >= 300)
+        {
+            Debug.Log("You have collected enough coins! STATIC");
+        }
     }
 }
