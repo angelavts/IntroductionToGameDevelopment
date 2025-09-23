@@ -2,5 +2,8 @@ public enum GameEvent
 {
     CoinCollected,
     TreeDestroyed,
-    PlayerDied
+    PlayerDied,
+    PlayerAttacked,
+    PlayerMenuButtonCliked,
+    PlayerDamaged
 }

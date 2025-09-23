@@ -122,7 +122,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 7068070d5ed9e584b8328576d158d93c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -212,7 +212,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 7096091521851886929}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 10a5c134c7efd394ba84b84211c71b9e, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7096091521851886941}
   animator: {fileID: 7096091521851886939}
-  spriteRenderer: {fileID: 7096091521723834394}
+  mainCamera: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
