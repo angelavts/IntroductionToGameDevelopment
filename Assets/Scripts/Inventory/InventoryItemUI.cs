@@ -10,6 +10,7 @@ public class InventoryItemUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     [SerializeField] private RectTransform dragLayer; // Capa superior para arrastrar
     [SerializeField] private float returnDuration = 0.25f;
     [SerializeField] private Ease returnEase = Ease.OutQuad;
+    [SerializeField] private Image icon;
 
     private RectTransform rect;
     private CanvasGroup canvasGroup;
@@ -24,6 +25,14 @@ public class InventoryItemUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         rect = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         if (!canvasGroup) canvasGroup = gameObject.AddComponent<CanvasGroup>();
+    }
+
+    public void SetIcon(Sprite sprite)
+    {
+        if (icon != null)
+        {
+            icon.sprite = sprite;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)

@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -5,11 +7,15 @@ using UnityEngine.UI;
 
 public class InventoryPanelController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    [Header("Data")]
+    [SerializeField] private ItemDatabase itemDatabase;
+    [SerializeField] private InventoryItemUI itemPrefab;
+    
     [Header("Refs")]
     [SerializeField] private RectTransform panel;        // El panel que se mueve
     [SerializeField] private RectTransform tab;          // La pestaña que sobresale
-    [SerializeField] private CanvasGroup canvasGroup;    // Para fade opcional
-
+    [SerializeField] private CanvasGroup canvasGroup;
+    [SerializeField] private List<RectTransform> slots;
     [Header("Anim")]
     [SerializeField] private float openX = 0f;           // Posición X abierta
     [SerializeField] private float closedX = 420f;       // Posición X cerrada (fuera de pantalla)
@@ -28,6 +34,24 @@ public class InventoryPanelController : MonoBehaviour, IPointerEnterHandler, IPo
         if (!canvasGroup) canvasGroup = GetComponent<CanvasGroup>();
     }
 
+    private void PopulateInventory()
+    {
+        List<ItemData> items = (List<ItemData>)itemDatabase.All;
+        // ????
+        int slotIndex = 0;
+        foreach (ItemData item in items)
+        {
+            if (slotIndex < slots.Count)
+            {
+                InventoryItemUI currentItem = Instantiate(itemPrefab, slots[slotIndex].transform);
+                currentItem.SetIcon(item.icon);
+                // TODO: Desde aqui se debe agregar el rootCanvas y dragLayer al currentItem
+                // para que funcione bien el drag
+                slotIndex++;
+            }
+        }
+    }
+
     private void Awake()
     {
         // Inicia cerrado visualmente
@@ -35,6 +59,11 @@ public class InventoryPanelController : MonoBehaviour, IPointerEnterHandler, IPo
         panel.anchoredPosition = new Vector2(closedX, ap.y);
         canvasGroup.alpha = 0.7f;
         isOpen = false;
+    }
+
+    private void Start()
+    {
+        PopulateInventory();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
