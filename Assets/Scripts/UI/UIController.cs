@@ -26,7 +26,6 @@ public class UIController : MonoBehaviour
 
     private void Awake()
     {
-        score = 0;
         menuButton.onClick.AddListener(OpenMainMenu);
         closeMenuButton.onClick.AddListener(CloseMainMenu);
         
@@ -35,12 +34,28 @@ public class UIController : MonoBehaviour
         
         exitGameButton.onClick.AddListener(ExitGame);
         infoButton.onClick.AddListener(ExitGame);
+        
+        menuButton.onClick.AddListener(PlayAudioClick);
+        closeMenuButton.onClick.AddListener(PlayAudioClick);
+        infoButton.onClick.AddListener(PlayAudioClick);
+        closeInfoButton.onClick.AddListener(PlayAudioClick);
+        exitGameButton.onClick.AddListener(PlayAudioClick);
+        infoButton.onClick.AddListener(PlayAudioClick);
+    }
+    
+    private void PlayAudioClick()
+    {
+        AudioManager.Instance.Play(SoundType.Click);
     }
 
     private void Start()
     {
+        score = ScoreManager.Instance.CurrentScore;
+        scoreText.text = score.ToString();
         EventBus<int>.Subscribe(GameEvent.PlayerAttacked, HandleOnPlayerAttacked);
         EventBus<int>.Subscribe(GameEvent.PlayerDamaged, HandleOnPlayerDamaged);
+        
+        AudioManager.Instance.PlayMusic(SoundType.Background);
     }
 
     private void HandleOnPlayerDamaged(int remainingLife)
@@ -54,6 +69,7 @@ public class UIController : MonoBehaviour
     {
         score += damage;
         scoreText.text = score.ToString();
+        ScoreManager.Instance.AddScore(damage);
     }
 
     private void OpenMainMenu()
