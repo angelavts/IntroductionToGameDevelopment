@@ -134,6 +134,7 @@ MonoBehaviour:
   speed: 12
   lifetime: 2.5
   damage: 1
+  particlePrefab: {fileID: 19886758, guid: 8c27aeead6d968e4ba986702d6b84335, type: 3}
 --- !u!50 &33735698894279530
 Rigidbody2D:
   serializedVersion: 4
@@ -165,7 +166,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

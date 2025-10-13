@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float speed = 12f;
     [SerializeField] private float lifetime = 2.5f;
     [SerializeField] private int damage = 1;
+    [Header("Particles")]
+    [SerializeField] private ParticleSystem particlePrefab;
 
     private Rigidbody2D rb;
     private float deathTime;
@@ -45,6 +47,7 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Aquí se puede aplicar daño a un objetivo
+        ParticleSystem particle = Instantiate(particlePrefab, transform.position, Quaternion.identity);
         ReturnToPool();
     }
 
